@@ -1,0 +1,78 @@
+/*Desktop*/
+@media (min-width:1024px){
+#header #mobile-menu{
+    display: none;
+}
+}
+/*Tablet*/
+@media (min-width:741px) and (max-width: 1023px){
+#header #mobile-menu{
+    display: none;
+}
+}
+
+/*Mobile*/
+@media (max-width:740px){
+.full-width{
+    width: 100%;
+}
+.col-full{
+    width: 100%;
+}
+.rps-mt8{
+    margin-top: 8px;
+}
+#header .search-button{
+    display: none;
+}
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon{
+    color: black;
+}
+#header{
+    overflow: hidden;
+}
+#nav{
+        display: block;    
+}
+#nav .subnav{
+    position: initial;
+    background-color: rgb(31, 25, 25);
+}
+#nav .subnav a{
+    color: whitesmoke;
+    padding: 5px 41px;
+}
+#nav li a{
+    padding: 1px 24px;
+}
+#nav > li{
+    display: block;
+}
+#nav li:first-child{
+    display: inline-block;
+}
+
+#content .member-list{
+    margin-top:30px;
+    width: 100%;
+    margin-left: 3px;
+}
+#content .member-img{
+    width: 60%;
+}
+#content .place-item{
+    width: 100%;
+    padding-bottom: 8px;
+    margin-top: 8px;
+}
+#contact .contact-form{
+    margin-top: 16px;
+}
+.rps-button{
+    width: 100%;
+}
+}
+
